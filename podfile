@@ -1,0 +1,9 @@
+platform:ios,'8.0'
+target "912" do
+
+pod 'MJRefresh'
+pod 'SDWebImage' 
+pod 'SVProgressHUD'
+pod 'AFNetworking'
+
+end
