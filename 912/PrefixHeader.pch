@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  912
+//
+//  Created by Seacity on 2017/9/5.
+//  Copyright © 2017年 Seacity. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+@import UIKit;
+@import Foundation;
+
+#import <Masonry/Masonry.h>
+#import <ChameleonFramework/Chameleon.h>
+
+
+//常量
+#import "Config.h"
+
+#endif

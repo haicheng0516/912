@@ -29,7 +29,7 @@
     //会往下偏移状态栏高度（20个点） why? 加上这句话就OK了
     self.automaticallyAdjustsScrollViewInsets = NO;
     
-    self.view.backgroundColor = [UIColor grayColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     navBarHairlineImageView = [self findHairlineImageViewUnder:self.navigationController.navigationBar];
 }

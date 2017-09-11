@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    HomeViewController *homeVC = [[HomeViewController alloc] init];
+    UINavigationController *baseNVC = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    baseNVC.navigationBar.barTintColor = [UIColor whiteColor];
+    self.window.rootViewController = baseNVC;
     return YES;
 }
 
